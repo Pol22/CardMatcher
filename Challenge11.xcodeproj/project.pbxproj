@@ -13,6 +13,7 @@
 		E2DAE2592766CCE8008F3B18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DAE2572766CCE8008F3B18 /* Main.storyboard */; };
 		E2DAE25B2766CCEA008F3B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2DAE25A2766CCEA008F3B18 /* Assets.xcassets */; };
 		E2DAE25E2766CCEA008F3B18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DAE25C2766CCEA008F3B18 /* LaunchScreen.storyboard */; };
+		E2DAE2662766D507008F3B18 /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DAE2652766D507008F3B18 /* CardViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E2DAE25A2766CCEA008F3B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2DAE25D2766CCEA008F3B18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2DAE25F2766CCEA008F3B18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2DAE2652766D507008F3B18 /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				E2DAE2512766CCE8008F3B18 /* AppDelegate.swift */,
 				E2DAE2532766CCE8008F3B18 /* SceneDelegate.swift */,
 				E2DAE2552766CCE8008F3B18 /* ViewController.swift */,
+				E2DAE2652766D507008F3B18 /* CardViewCell.swift */,
 				E2DAE2572766CCE8008F3B18 /* Main.storyboard */,
 				E2DAE25A2766CCEA008F3B18 /* Assets.xcassets */,
 				E2DAE25C2766CCEA008F3B18 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				E2DAE2562766CCE8008F3B18 /* ViewController.swift in Sources */,
 				E2DAE2522766CCE8008F3B18 /* AppDelegate.swift in Sources */,
+				E2DAE2662766D507008F3B18 /* CardViewCell.swift in Sources */,
 				E2DAE2542766CCE8008F3B18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,8 +293,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS7K8JGJCH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Challenge11/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Card Matching";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +311,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,8 +322,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS7K8JGJCH;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Challenge11/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Card Matching";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -332,7 +340,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
